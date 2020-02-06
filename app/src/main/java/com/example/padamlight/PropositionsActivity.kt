@@ -30,6 +30,7 @@ class PropositionsActivity: AppCompatActivity(), NavigationView.OnNavigationItem
         setContentView(R.layout.activity_proposition)
 
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
+        toolbar.title = "Padam Light"
         toolbar.setTitleTextColor(ContextCompat.getColor(this, R.color.white))
         setSupportActionBar(toolbar)
 

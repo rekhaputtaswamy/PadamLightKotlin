@@ -64,6 +64,7 @@ class SearchActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelect
         ButterKnife.bind(this)
 
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
+        toolbar.title = "Padam Light"
         toolbar.setTitleTextColor(ContextCompat.getColor(this, R.color.white))
         setSupportActionBar(toolbar)
 
